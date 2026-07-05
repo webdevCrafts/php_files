@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> Basic Form </title>
+    <style type="text/css">
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: small;
+        }
+        
+        body>h1 {
+            position: relative;
+            left: 35%;
+            width: 25%;
+        }
+
+        form {
+            height: 50em;
+        }
+
+        fieldset#personalinfo {
+            position: relative;
+            top: 10%;
+            left: 25%;
+            height: 45%;
+            width: 40%;
+        }
+
+        legend {
+            position: relative;
+            height: 1em;/*65em;*/
+            width: 20em;
+        }
+
+        div#section1 {
+            position: relative;
+            bottom: 280%;
+            width: 50%;
+        }
+        
+        h1#personalhead {
+            position: relative;
+            left: 10%;
+            top: 0.5em;
+            width: 130%;
+        }
+
+        div.personal {
+            margin: 1.5em 0.5em 1em 0em;
+            position: relative;
+            top: 2em;
+            width: 20em;
+        }
+
+        input[type="submit"] {
+            position: relative;
+            left: 75%;
+        }
+
+    </style>
+</head>
+
+
+<body>
+<h1> Here's a Basic Form </h1>
+<form action="#" method="#">
+    <fieldset id="personalinfo">
+    <legend>
+      <div id="section1">
+      <h1 id="personalhead"> Personal Info </h1>   
+
+
+        <div class="personal"">
+        <label for="firstname"> First Name: </label>
+          <input id="firstname" type="text"> 
+        </div>
+
+        <div class="personal">
+        <label for="lastname"> Last Name: </label>
+          <input id="lastname" type="text">
+        </div>
+
+        <div class="personal">
+        <label for="age"> Age: </label>
+          <input id="age" type="number">
+        </div>
+
+        <div class="personal">
+        <label for="DOB"> DOB: </label>
+          <input id="DOB" type="date">
+         </div>
+
+
+        <div class="personal">
+        <label for="Phone"> Phone #: </label>
+          <input id="Phone" type="tel">
+        </div>
+
+        <div class="personal">
+          <input id="submit" type="submit" value="submit">
+        </div>
+
+    </div>
+    </legend>
+    </fieldset>
+</form>
+  
+</body>
+</html>
